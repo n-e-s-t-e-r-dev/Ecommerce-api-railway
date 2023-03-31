@@ -39,7 +39,7 @@ app.use(orderRoutes);
 
 
 app.get("/", (req, res) => {
-    res.send("Bienvenidos a Ecommerce Documentacion: https://documenter.getpostman.com/view/25698929/2s93RQTZy9");
+    res.send("Bienvenidos a Ecommerce Documentacion:");
 })
 
 errorHandlerRouter(app);
